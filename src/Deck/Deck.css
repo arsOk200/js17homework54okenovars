@@ -1,11 +1,12 @@
 .container  {
-    margin: 0 auto;
+    margin: 30px auto;
     border: 1px solid #252525;
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
     width: 180px;
     height: 180px;
+
 }
 .block{
     width: 20px;

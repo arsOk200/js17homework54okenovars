@@ -33,7 +33,6 @@ function App() {
     setItems(createItems());
   }
 
-
   const onItemClick = (index:string) => {
     const currentItem = items.findIndex(i => i.id === index);
     const item = items[currentItem];
@@ -47,8 +46,6 @@ function App() {
     setCounter([tryCopy]);
 
   };
-
-
 
   return (
     <div className="App">
@@ -66,7 +63,6 @@ function App() {
       <ResetButton onResetClick={() => onResetClick()}/>
       <Counter try={counter[0].tries}/>
     </div>
-
   );
 }
 

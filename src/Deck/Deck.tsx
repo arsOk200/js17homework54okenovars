@@ -15,9 +15,10 @@ const Deck:React.FC<Props> = (props) => {
   if(props.clicked) {
     blockStyle = blockStyle+' clicked';
   }
-  if(props.hasItem&& props.clicked) {
+  if(props.hasItem && props.clicked) {
     blockStyle = blockStyle+' find';
     itemStyle = itemStyle+' catch';
+
   }
 
 
